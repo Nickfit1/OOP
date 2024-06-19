@@ -8,8 +8,8 @@ class Car:
         Создание и подготовка к работе объекта "Автомобиль"
 
         :param hp: Мощность двигателя
-
         :param max_speed: Максимальная скорость
+        :param brake_distance: Тормозной путь
 
         """
         self.hp = hp
@@ -28,10 +28,19 @@ class Car:
         """
 
 
-    def good_brakes(self, ):
+    def good_brakes(self, brake_coeff):
+        ...
+        """
+        Уменьшение тромозного пути
+        :param brake_coeff: тормозной коэффициент колодок
+        :return: Измененный тормозной путь
+        Примеры:
+        >>> car = Car(150, 200)
+        >>> car.good_brakes()
+        """
 
 
-class
+
 
 
 if __name__ == "__main__":
