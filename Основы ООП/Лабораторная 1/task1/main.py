@@ -40,6 +40,22 @@ class Car:
         """
 
 
+class Man:
+    def __init__(self, age: int, weight: Union[int, float], strong: int):
+        """
+               Создание и подготовка к работе объекта "Человек"
+
+               :param age: Возраст
+               :param weight: Вес
+               :param strong: Сила
+
+        """
+        self.age = age
+        self.weight = weight
+        self.strong = strong
+
+
+
 
 
 
