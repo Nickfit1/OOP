@@ -20,8 +20,6 @@ files:
           length: 330
           offset: 99
         initialized_from_dependency: false
-        selected: false
-        status: Solved
         encrypted_possible_answer: |-
           @classmethod
               def area(cls, *args):
@@ -33,6 +31,9 @@ files:
                       cls.area_by_height(*args)
                   if len(args) == 3:
                       cls.area_by_angle(*args)
+        selected: false
+        status: Solved
+        is_visible: false
       - offset: 435
         length: 73
         placeholder_text: "def area_by_angle(self, a, b, angle):  # TODO сделать стати\
@@ -41,11 +42,12 @@ files:
           length: 73
           offset: 435
         initialized_from_dependency: false
-        selected: false
-        status: Solved
         encrypted_possible_answer: |-
           @staticmethod
               def area_by_angle(a, b, angle):
+        selected: false
+        status: Solved
+        is_visible: false
       - offset: 627
         length: 67
         placeholder_text: "def area_by_height(self, a, h):  # TODO сделать статическим\
@@ -54,11 +56,12 @@ files:
           length: 67
           offset: 627
         initialized_from_dependency: false
-        selected: false
-        status: Solved
         encrypted_possible_answer: |-
           @staticmethod
               def area_by_height(a, h):
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       import math
       

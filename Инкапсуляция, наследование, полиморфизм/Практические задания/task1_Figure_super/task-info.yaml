@@ -10,9 +10,10 @@ files:
           length: 58
           offset: 202
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: super().__init__(name=name)
+        selected: false
+        status: Failed
+        is_visible: false
     text: |
       class Figure:
           def __init__(self, name=None):
@@ -41,5 +42,8 @@ files:
     text: |
       rect_fig
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Error during execution
+  time: "Tue, 02 Jul 2024 20:46:37 UTC"
 record: -1

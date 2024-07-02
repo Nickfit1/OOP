@@ -7,4 +7,6 @@ class Glass:
 
 if __name__ == "__main__":
     glass = Glass(200, 0)
+    print(glass.__class__)
+    print((glass.__dict__))
 

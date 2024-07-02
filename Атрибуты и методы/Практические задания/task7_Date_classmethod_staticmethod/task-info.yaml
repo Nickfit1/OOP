@@ -3,37 +3,40 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 513
-        length: 29
+      - offset: 629
+        length: 0
         placeholder_text: "...  # TODO реализовать метод"
         initial_state:
           length: 29
           offset: 513
         initialized_from_dependency: false
+        encrypted_possible_answer: '...'
         selected: false
         status: Solved
-        encrypted_possible_answer: '...'
-      - offset: 685
-        length: 103
+        is_visible: false
+      - offset: 946
+        length: 98
         placeholder_text: "...  # TODO используя атрибут класса DAY_OF_MONTH вернуть к\
       оличество дней в запрашиваемом месяце и году"
         initial_state:
           length: 103
           offset: 685
         initialized_from_dependency: false
+        encrypted_possible_answer: '...'
         selected: false
         status: Solved
-        encrypted_possible_answer: '...'
-      - offset: 913
-        length: 37
+        is_visible: false
+      - offset: 1169
+        length: 792
         placeholder_text: "...  # TODO проверить валидность даты"
         initial_state:
           length: 37
           offset: 913
         initialized_from_dependency: false
+        encrypted_possible_answer: '...'
         selected: false
         status: Solved
-        encrypted_possible_answer: '...'
+        is_visible: false
     text: |
       class Date:
           """Класс для работы с датами"""

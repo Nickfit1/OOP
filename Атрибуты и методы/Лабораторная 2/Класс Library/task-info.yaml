@@ -14,7 +14,7 @@ files:
     visible: true
     placeholders:
       - offset: 188
-        length: 26
+        length: 316
         placeholder_text: '# TODO написать класс Book'
         dependency:
           section: Атрибуты и методы
@@ -22,28 +22,29 @@ files:
           task: Класс Book
           file: main.py
           placeholder: 1
-          is_visible: false
         initial_state:
           length: 26
           offset: 188
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        initialized_from_dependency: true
         encrypted_possible_answer: |-
           class Book:
               ...
-      - offset: 217
-        length: 29
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 507
+        length: 1140
         placeholder_text: '# TODO написать класс Library'
         initial_state:
           length: 29
           offset: 217
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           class Library:
               ...
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       BOOKS_DATABASE = [
           {
@@ -77,5 +78,8 @@ files:
       
           print(library_with_books.get_index_by_book_id(1))  # проверяем индекс книги с id = 1
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 02 Jul 2024 20:46:17 UTC"
 record: -1
